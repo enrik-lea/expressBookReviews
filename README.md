@@ -27,6 +27,8 @@ GET http://localhost:5000/review/3
 Update book review:
 PUT http://localhost:5000/customer/auth/review/3 | {"username":"user1", "review":"The book is great!!"}
 
+Delete book review for user 'user1':
+http://localhost:5000/customer/auth/review/3 | {"username":"user1", "password":"password1"}
 
 Postman use cases with Promises:
 -
